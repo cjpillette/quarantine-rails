@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="207px" height="289px" viewBox="0 0 207 289" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-vessel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="698.442863 407.471905 800.754394 406.928364 790.321279 433.903563 688.794395 432.418369"></polygon>
+        <polygon id="path-2" points="605.356646 407.4677 707.668177 406.924159 697.235062 433.899358 595.708178 432.414164"></polygon>
+        <rect id="path-3" x="632" y="374" width="131" height="43"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="131" height="43" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="655" y="363" width="90" height="11"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="90" height="11" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="654.705562" y="317.432743" width="90" height="11"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="90" height="11" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="675.201654" y="325.016598" width="90" height="5"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="90" height="5" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="634.002982" y="325.069911" width="90" height="5"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="90" height="5" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+    </defs>
+    <g id="icon--vessel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-vessel" transform="translate(-595.000000, -278.000000)">
+            <polygon id="Rectangle" fill="#020202" points="604.961827 456.029084 695.458733 420.202777 695.458733 559 647.5 559"></polygon>
+            <polygon id="Rectangle" fill="#020202" transform="translate(747.248453, 489.398612) scale(-1, 1) translate(-747.248453, -489.398612) " points="702 455.826307 792.496906 420 792.496906 558.797223 744.538173 558.797223"></polygon>
+            <use id="Rectangle-2" fill="#020202" transform="translate(744.774395, 420.415964) scale(-1, 1) rotate(-22.000000) translate(-744.774395, -420.415964) " xlink:href="#path-1"></use>
+            <use id="Rectangle-2" fill="#020202" transform="translate(651.688178, 420.411759) rotate(-22.000000) translate(-651.688178, -420.411759) " xlink:href="#path-2"></use>
+            <use id="Rectangle-3" stroke="#000000" mask="url(#mask-4)" stroke-width="12" fill-opacity="0.0138134058" fill="#D8D8D8" xlink:href="#path-3"></use>
+            <use id="Rectangle-3-Copy" stroke="#000000" mask="url(#mask-6)" stroke-width="12" fill="#010101" xlink:href="#path-5"></use>
+            <use id="Rectangle-3-Copy" stroke="#000000" mask="url(#mask-8)" stroke-width="12" fill="#010101" transform="translate(699.705562, 322.932743) rotate(-269.000000) translate(-699.705562, -322.932743) " xlink:href="#path-7"></use>
+            <use id="Rectangle-3-Copy" stroke="#000000" mask="url(#mask-10)" stroke-width="12" fill="#010101" transform="translate(720.201654, 327.516598) rotate(-299.000000) translate(-720.201654, -327.516598) " xlink:href="#path-9"></use>
+            <use id="Rectangle-3-Copy" stroke="#000000" mask="url(#mask-12)" stroke-width="12" fill="#010101" transform="translate(679.002982, 327.569911) scale(-1, 1) rotate(-299.000000) translate(-679.002982, -327.569911) " xlink:href="#path-11"></use>
+        </g>
+    </g>
+</svg>

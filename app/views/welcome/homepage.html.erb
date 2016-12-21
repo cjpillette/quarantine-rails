@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>Biosecurity data collection</title>
+  <meta name="keywords" content="pre-border, border, post-border, quarantine, biosecurity">
+  <meta name="description" content="pre-border, border and postborder routine data collection.">
+
+  
+  
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+
+  <script src="https://code.highcharts.com/modules/data.js"></script>
+  <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+  <script src="https://code.highcharts.com/modules/funnel.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+
+</head>
+<body>
+  <header class="site-header">
+   <div class="container">
+    <img src="/assets/Tasmanian_gvt_logo_300.png" class="logo">
+      <a href="#kpis" class="site-header">KPIs</a>
+      <nav class="primary-nav primary-nav--pull-right">
+        <ul>
+          <li><a href="#preborder">Pre-border</a></li>
+          <li><a href="#border">Border</a></li>
+          <li><a href="#postborder">Post-border</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+<div id="preborder" class="page-section page-section--top">
+  <div class="container">
+     <div class="page-section__title">
+      <h1>Pre-Border</h1>
+     </div>
+     <div class="row--equal-height">
+        <div class="row__large-4">
+          <div class="border-frame border-frame--background-white">
+             <img src="assets/sliced-airplane.svg" class="icon icon--blue-background">
+             <h2>Airport</h2>
+            <p>Wildlife and other controlled material expected to arrived at the airport freight sheds. Possibly have TOLL Virgin / Qantas enter dog data.</p>
+           </div>
+        </div>
+        <div class="row__large-4">
+          <div class="border-frame border-frame--background-white">
+             <img src="assets/sliced-vessel.svg" class="icon icon--blue-background">
+             <h2>Seaport</h2>
+            <p>Fruit and veg containers without proper doc/certs. Machinery. Cattle and other animal stock.</p>
+           </div>
+        </div>
+        <div class="row__large-4">
+            <div class="border-frame border-frame--background-white">
+              <img src="assets/sliced-truck.svg" class="icon icon--blue-background">
+               <h2>Freight sheds</h2>
+               <p>Loadsheet, consignments requiring inspection (PQA600 inspection)</p>
+            </div>
+         </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="border" class="page-section page-section--middle">
+  <div class="container">
+    <div class="page-section__title">
+      <h1>Border</h1>
+    </div>
+     <div class="row--equal-height">
+        <div class="row__large-4">
+          <div class="border-frame--short">
+           <img src="assets/sliced-airplane.svg" class="icon icon--blue-background">
+           <h2>Airport</h2>
+          <!--  <p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p> -->
+          </div>
+        </div>
+        <div class="row__large-4">
+          <div class="border-frame--short">
+             <img src="assets/sliced-vessel.svg" class="icon icon--blue-background">
+             <h2>Seaport</h2>
+            <!-- <p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and   inspiring locations.</p> -->
+           </div>
+        </div>
+        <div class="row__large-4">
+            <div class="border-frame--short">
+              <img src="assets/sliced-truck.svg" class="icon icon--blue-background">
+               <h2>Freight sheds</h2>
+               <!-- <p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p> -->
+            </div>
+         </div>
+    </div>
+    <div class="page-section__title">
+      <h2 id="flight-title">Flight</h2>
+    </div>
+    <div id="flight-content">
+      <div class="row row--gutters" id="airport-codes">
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--active postborder-frame--round-border">HBA</h3>
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--round-border">LST</h3>
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--round-border">DPO</h3>
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--round-border">BWT</h3>
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--round-border">FLS</h3>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Flight</th>
+            <th>From</th>
+            <th>Arrival time</th>
+            <th>Status</th>
+            <th>Inspected by</th>
+            <th>PAX total</th>
+            <th>PAX with BRM</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>JQ705</td>
+            <td>M</td>
+            <td>11:55</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+          <tr>
+            <td>QF1583</td>
+            <td>S</td>
+            <td>11:25</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+          <tr>
+            <td>JQ627</td>
+            <td>A</td>
+            <td>10:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+          <tr>
+            <td>JQ759</td>
+            <td>B</td>
+            <td>10:13</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+          <tr>
+            <td>VA1316</td>
+            <td>M</td>
+            <td>9:55</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+          <tr>
+            <td>QF703</td>
+            <td>M</td>
+            <td>9:45</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+          <tr>
+            <td>QF703</td>
+            <td>M</td>
+            <td>9:45</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+          <tr>
+            <td>VA1528</td>
+            <td>S</td>
+            <td>9:30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small open-modal"></td>
+          </tr>
+          <tr class="dark-background">
+            <td>QF1501</td>
+            <td>M</td>
+            <td>9:30</td>
+            <td>Landed</td>
+            <td>BO</td>
+            <td>112</td>
+            <td>0</td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+          <tr class="dark-background">
+            <td>JQ719</td>
+            <td>S</td>
+            <td>7:50</td>
+            <td>Landed</td>
+            <td>DDT + BO</td>
+            <td>125</td>
+            <td>2</td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+          <tr class="dark-background">
+            <td>JQ701</td>
+            <td>M</td>
+            <td>7:15</td>
+            <td>Landed</td>
+            <td>DDT + BO</td>
+            <td>180</td>
+            <td>5</td>
+            <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+          </tr>
+        </tbody>
+      </table>
+    
+      
+
+      <div class="modal">
+        <div class="modal--container modal--centered">
+          <h2 class="page-section__title">New flight</h2>
+          <form class="modal__form">
+            Flight: <input type="text"/> <br>
+            Number of PAX:  <input type="Number"/> <br>
+            Number of non-compliance:  <input type="Number"/> <br>
+            Inspection regime: <select><br>
+                <option type="0">DDT + BO</option>
+                <option type="DDTalone">DDT alone</option>
+                <option type="BOalone">BO alone</option>
+                <option type="partial">Partial</option>
+                <option type="missed">Flight missed</option>
+            </select> <br>
+          <button class="modal__form__btn" href="#" >Save </button>
+          </form>
+        </div>
+      </div>
+      </div>
+
+  
+    <div class="page-section__title">
+      <h2>Freight</h2>
+    </div>
+    <div class="page-section__title">
+      <h2>Bin Collection</h2>
+    </div>
+      <!-- <div class="row row--gutters">
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--active postborder-frame--round-border">HBA</h3>
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--round-border">LST</h3>
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--round-border">DPO</h3>
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--round-border">BWT</h3>
+        <h3 class="row__large-2 postborder-frame postborder-frame--xs-padding postborder-frame--round-border">FLS</h3>
+      </div> -->
+    <div class="wrapper">
+        <div class="row--equal-height">
+          <div class="row__large-4">
+              <div class="border-frame--no-shadow">
+                <h3>Amnesty</h3>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Date</th>
+                        <th>Weight</th>
+                        <th>Cut fruits?</th>
+                        <th>BRM found</th>
+                        <th></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>13/12/16</td>
+                        <td>12 Kg</td>
+                        <td>Yes</td>
+                        <td>No</td>
+                        <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                      </tr>
+                      <tr>
+                        <td>12/12/16</td>
+                        <td>10 Kg</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                      </tr>
+                      <tr class="dark-background">
+                        <td>11/12/16</td>
+                        <td>8 Kg</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                      </tr>
+                      <tr>
+                        <td>10/12/16</td>
+                        <td>11 Kg</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                      </tr>
+                      <tr>
+                        <td>13/12/16</td>
+                        <td>5 Kg</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+          </div>
+          <div class="row__large-4">
+              <div class="border-frame--no-shadow">
+               <h3>Declaration</h3>
+                 <table>
+                   <thead>
+                     <tr>
+                       <th>Date</th>
+                       <th>Weight</th>
+                       <th>Cut fruits?</th>
+                       <th>BRM found</th>
+                       <th></th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                     <tr>
+                       <td>13/12/16</td>
+                       <td>6 Kg</td>
+                       <td>No</td>
+                       <td>No</td>
+                       <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                     </tr>
+                     <tr>
+                       <td>12/12/16</td>
+                       <td>3 Kg</td>
+                       <td>No</td>
+                       <td>No</td>
+                       <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                     </tr>
+                     <tr>
+                       <td>11/12/16</td>
+                       <td>6 Kg</td>
+                       <td>No</td>
+                       <td>No</td>
+                       <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                     </tr>
+                     <tr>
+                       <td>10/12/16</td>
+                       <td>4 Kg</td>
+                       <td>No</td>
+                       <td>No</td>
+                       <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                     </tr>
+                     <tr>
+                       <td>13/12/16</td>
+                       <td>5 Kg</td>
+                       <td>No</td>
+                       <td>No</td>
+                       <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                     </tr>
+                   </tbody>
+                 </table>
+               </div>
+          </div>
+          <div class="row__large-4">
+             <div class="border-frame--no-shadow">
+              <h3>Seizure</h3>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Weight</th>
+                      <th>Cut fruits?</th>
+                      <th>BRM found</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>13/12/16</td>
+                      <td>1 Kg</td>
+                      <td>Yes</td>
+                      <td>No</td>
+                      <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                    </tr>
+                    <tr>
+                      <td>12/12/16</td>
+                      <td>2 Kg</td>
+                      <td>No</td>
+                      <td>No</td>
+                      <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                    </tr>
+                    <tr>
+                      <td>11/12/16</td>
+                      <td>2 Kg</td>
+                      <td>No</td>
+                      <td>No</td>
+                      <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                    </tr>
+                    <tr class="dark-background">
+                      <td>10/12/16</td>
+                      <td>4 Kg</td>
+                      <td>Yes</td>
+                      <td>Yes</td>
+                      <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                    </tr>
+                    <tr>
+                      <td>13/12/16</td>
+                      <td>5 Kg</td>
+                      <td>No</td>
+                      <td>No</td>
+                      <td><img src="/assets/edit_icon.png" class="icon icon--small"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+          </div>
+        </div>
+    </div>
+ </div>
+</div>
+
+<div id="postborder" class="page-section page-section--bottom">
+  <div class="container">
+    <div class="page-section__title">
+        <h1>Post-border</h1>
+    </div>
+    <div class="row row--gutters">
+        <h2 class="postborder-frame row__large-4--small">Weeds</h2>
+        <h2 class="postborder-frame row__large-4--small">Animal - Invasives</h2>
+        <h2 class="postborder-frame row__large-4--small">Post Entry Detection</h2>
+    </div>
+    <div class="row row--gutters">
+        <h2 class="postborder-frame row__large-4--small">PQA Audits</h2>
+        <h2 class="postborder-frame row__large-4--small">AHA Audits</h2>
+        <h2 class="postborder-frame row__large-4--small">AWA Audits</h2>
+    </div>
+    <h2 class="postborder-frame postborder-frame--survey">Surveys</h2>
+  </div>
+</div>
+
+<div id="kpis" class="page-section page-section--middle">
+  <div class="container">
+    <div class="page-section__title">
+        <h1>KPIs</h1>
+    </div>
+
+        <div class="row">
+         <div class="row__large-12" id="container1" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+        </div>
+        <div class="row row--gutters">
+          <div class="kpi__frame row__large-6" id="container2"></div>
+          <div class="kpi__frame row__large-6" id="container3"></div>
+        </div>
+
+        <div class="row">
+          <div class="kpi__frame row__large-12" id="container4" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+        </div>
+
+  </div>
+</div>  
+
+  <footer class="footer">
+   <!--  <p>Copyright &copy; 2016 BOB operations. All rights reserved.</p> -->
+  </footer>
+
+  <script type="text/javascript" src="assets/javascripts/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="assets/scripts/script.js"></script>
+  
+
+</body>
+</html>
