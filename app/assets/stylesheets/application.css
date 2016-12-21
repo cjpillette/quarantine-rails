@@ -529,7 +529,7 @@ th, td {
 .page-section--middle {}
 
 .page-section--bottom {
-  background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+  background: url('/assets/testimonials-bg.jpg') top center no-repeat;
   background-size: cover;
 }
 
@@ -558,7 +558,15 @@ th, td {
 }
 
 .row {
-	@mixin clearfix;
+	#container:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+#container {
+    position: relative;
+    min-width: 42.5em;
+}
 }
 
 .row__large-4 {
@@ -696,7 +704,15 @@ th, td {
   margin:0;
   padding:0;
 
-  @mixin clearfix;
+  #container:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+#container {
+    position: relative;
+    min-width: 42.5em;
+}
 }
 
 .primary-nav li {
@@ -749,7 +765,15 @@ th, td {
 }
 
 .wrapper {
-  @mixin clearfix;
+  #container:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+#container {
+    position: relative;
+    min-width: 42.5em;
+}
   display: block;
   padding-bottom: 80px;
 }

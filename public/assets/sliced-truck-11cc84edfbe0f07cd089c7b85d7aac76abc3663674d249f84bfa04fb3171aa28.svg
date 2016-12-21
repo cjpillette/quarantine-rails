@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="242px" viewBox="0 0 200 242" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Slicetruck</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M23,0 L175,0 C175,0 182.38872,160.554278 171.310378,173.622589 C160.232036,186.6909 42.7540992,186.721113 30.5397377,173.622589 C18.3253762,160.524064 23,0 23,0 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="155.292261" height="183.435155" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M27.5075527,178.733644 C27.3259889,174.321655 29.3706852,173.582087 32.0663018,177.071148 L33.4207009,178.824209 L38.4871264,181.034901 L45.4454203,182.297121 L54.7254199,184 L145.316773,184 L157.688481,182.297121 L164.575623,180.028717 L169.489997,177.457798 L172.830251,175.295941 L172.830251,175.295941 C175.13314,172.782543 177,174.329115 177,178.746455 L177,206.998577 C177,211.417641 173.414885,215 168.990402,215 L37.0095985,215 C32.5860194,215 28.8525064,211.415917 28.6712495,207.011387 L27.5075527,178.733644 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="149.503662" height="40.9089422" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polygon id="path-5" points="41 187 53.9996678 187.893779 63 209 41 209"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22" height="22" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <polygon id="path-7" points="145 187 157.999668 187.893779 167 209 145 209"></polygon>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="22" height="22" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="41" y="34" width="117" height="47" rx="8"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="117" height="47" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="41" y="58" width="117" height="47" rx="8"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="117" height="47" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+        <path d="M43.7742026,129.49926 C42.2420528,125.357533 44.5815155,122 48.9958356,122 L150.004164,122 C154.420142,122 156.898535,125.399031 155.536035,129.603599 L145.233497,161.396401 C143.872686,165.595753 139.197604,169 134.773973,169 L66.382277,169 C61.9664521,169 57.1432864,165.638738 55.6125161,161.50074 L43.7742026,129.49926 Z" id="path-13"></path>
+        <mask id="mask-14" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112.605442" height="47" fill="white">
+            <use xlink:href="#path-13"></use>
+        </mask>
+        <polygon id="path-15" points="0 64 19 64 19 103.227451 0 97"></polygon>
+        <mask id="mask-16" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19" height="39.2274514" fill="white">
+            <use xlink:href="#path-15"></use>
+        </mask>
+        <polygon id="path-17" points="181 62 200 62 200 101.227451 181 95"></polygon>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="19" height="39.2274514" fill="white">
+            <use xlink:href="#path-17"></use>
+        </mask>
+    </defs>
+    <g id="icon-truck" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="truck">
+            <use id="Rectangle-2" stroke="#979797" mask="url(#mask-2)" stroke-width="2" fill="#030303" xlink:href="#path-1"></use>
+            <rect id="Rectangle-6" fill="#040404" x="38" y="200" width="24" height="41" rx="8"></rect>
+            <rect id="Rectangle-6" fill="#040404" x="145" y="194" width="24" height="47" rx="8"></rect>
+            <use id="Rectangle-3" stroke="#979797" mask="url(#mask-4)" stroke-width="2" fill="#030303" xlink:href="#path-3"></use>
+            <use id="Rectangle-5" stroke="#676767" mask="url(#mask-6)" stroke-width="4" fill-opacity="0.00656702899" fill="#D8D8D8" xlink:href="#path-5"></use>
+            <use id="Rectangle-5" stroke="#676767" mask="url(#mask-8)" stroke-width="4" fill-opacity="0.00656702899" fill="#D8D8D8" transform="translate(156.000000, 198.000000) scale(-1, 1) translate(-156.000000, -198.000000) " xlink:href="#path-7"></use>
+            <use id="Rectangle-4-Copy-2" stroke="#979797" mask="url(#mask-10)" stroke-width="2" fill="#030303" xlink:href="#path-9"></use>
+            <use id="Rectangle-4" stroke="#979797" mask="url(#mask-12)" stroke-width="4" fill="#030303" xlink:href="#path-11"></use>
+            <use id="Rectangle-4-Copy" stroke="#979797" mask="url(#mask-14)" stroke-width="6" fill="#030303" xlink:href="#path-13"></use>
+            <rect id="Rectangle" fill="#979797" x="47" y="135" width="106" height="2"></rect>
+            <rect id="Rectangle-Copy" fill="#979797" transform="translate(101.000000, 148.000000) scale(1, -1) translate(-101.000000, -148.000000) " x="53" y="147" width="96" height="2"></rect>
+            <rect id="Rectangle-Copy" fill="#979797" transform="translate(45.000000, 228.001831) scale(1, -1) rotate(-90.000000) translate(-45.000000, -228.001831) " x="31.9981689" y="227.001831" width="26.0036621" height="2"></rect>
+            <rect id="Rectangle-Copy-3" fill="#979797" transform="translate(50.000000, 228.001831) scale(1, -1) rotate(-90.000000) translate(-50.000000, -228.001831) " x="36.9981689" y="227.001831" width="26.0036621" height="2"></rect>
+            <rect id="Rectangle-Copy-4" fill="#979797" transform="translate(55.000000, 228.001831) scale(1, -1) rotate(-90.000000) translate(-55.000000, -228.001831) " x="41.9981689" y="227.001831" width="26.0036621" height="2"></rect>
+            <rect id="Rectangle-Copy-5" fill="#979797" transform="translate(152.000000, 228.001831) scale(1, -1) rotate(-90.000000) translate(-152.000000, -228.001831) " x="138.998169" y="227.001831" width="26.0036621" height="2"></rect>
+            <rect id="Rectangle-Copy-6" fill="#979797" transform="translate(157.000000, 228.001831) scale(1, -1) rotate(-90.000000) translate(-157.000000, -228.001831) " x="143.998169" y="227.001831" width="26.0036621" height="2"></rect>
+            <rect id="Rectangle-Copy-7" fill="#979797" transform="translate(162.000000, 228.001831) scale(1, -1) rotate(-90.000000) translate(-162.000000, -228.001831) " x="148.998169" y="227.001831" width="26.0036621" height="2"></rect>
+            <rect id="Rectangle-Copy-2" fill="#979797" x="57" y="157" width="88" height="2"></rect>
+            <use id="Rectangle-7" stroke="#979797" mask="url(#mask-16)" stroke-width="2" fill="#030303" xlink:href="#path-15"></use>
+            <use id="Rectangle-7" stroke="#979797" mask="url(#mask-18)" stroke-width="2" fill="#030303" transform="translate(190.500000, 81.613726) scale(-1, 1) translate(-190.500000, -81.613726) " xlink:href="#path-17"></use>
+            <rect id="Rectangle-8" fill="#000000" x="97" y="146" width="8" height="7"></rect>
+        </g>
+    </g>
+</svg>
